@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" 
+xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="UTF-8">
+    <!-- viewport scaling across different mobile devices, -->
+    <!-- and one to stop Apple from adjusting the size in  -->
+    <!-- a strange way in their mail apps. -->
+    <meta http-equiv="X-apple-disable-message-reformatting">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email template</title>
+    
+    	<!--[if mso]> 
+<noscript> 
+<xml> 
+<o:OfficeDocumentSettings> 
+<o:PixelsPerInch>96</o:PixelsPerInch> 
+</o:OfficeDocumentSettings> 
+</xml> 
+</noscript> 
+<![endif]-->
+
+
+<!-- Underneath the <title></title> tag you'll see some code between 
+[if mso]> and <![endif]. Placing code inside those two 
+tags means that only Microsoft Outlook on Windows will apply it
+(mso = 'Microsoft Outlook'). And in there, we have a small 
+amount of XML that will ensure that PNG images display at 
+the right size in Outlook on Windows. The xlmns settings that we
+put in the html tag ensures this code gets interpreted properly. -->
+
+    <style>
+        table,td,div,h1,p{font-family: Arial, sans-serif;}
+        /* turn off and on of the border */
+        /* table,td{border: 2px solid #241d1d !important;} */
+        </style>
+        </head>
+<body style="margin: 0;padding: 0;">
+
+    <!-- We’ve also added a table with a width of 100%.
+     This acts as a true body tag for our email, because
+      the body tag is sometimes removed by email clients. Apply any 'body' background colour that you want to this table tag.
+
+All our tables will be set to role="presentation". This
+ makes them more accessible, as it tells screen readers
+  to treat it as a visual table, not a data table.
+
+We have set border-collapse to collapse, and both border
+ and border-spacing to zero to avoid any unexpected space
+  in the table. -->
+
+    <table role="presentation" style="width: 100%;
+    border-collapse: collapse;border: 0; 
+    border-spacing: 0;">
+
+    <!-- <table role="presentation" style="width:602px;
+    border-collapse:collapse;border:1px solid #cccccc;
+    border-spacing:0;text-align:left;"> -->
+
+
+<!-- since align is actually a deprecated HTML property.
+ We use it because email clients vary so widely in 
+ their level of CSS support, and often we still need 
+ to use deprecated HTML to ensure everything displays 
+ properly everywhere. In this instance, it is because 
+Outlook for Windows does not obey margin:0 auto; 
+in CSS to center things. -->
+
+        <tr>
+            <td align="center" style="padding: 0;">
+                <table role="presentation" style="width: 602px;border-collapse:collapse;border: 1px solid #cccccc;border-spacing: 0;text-align:left;">
+                    <tr>
+                    <td align="center"; style="padding: 40px 0 30px;  background: #70bbd9;">
+                        <img src="./design/art design.jpg" alt="" width="300"
+                 style="height: auto;display:block;">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:36px 30px 42px 30px ">
+                <table role="presentation" style="width:100%; border-collapse:collapse; border:0;border-spacing: o ; ">
+                    <tr>
+                        <td style="padding: 0;">
+                                                        
+                            <h1>Creating Email Magic</h1>
+                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Magni alias minima explicabo, deleniti adipisci odio 
+                                eveniet minus voluptatem voluptatibus accusantium culpa
+                                molestiae nesciunt,quidem odit sunt velit dolorum saepe 
+                                animi.
+                            </p>
+                            <p><a href="http://www.example.com">In tempus felis blandit</a></p>
+                        </td>
+                        
+                        
+                            <td style="padding: 0;">
+                               
+                                
+                                    <tr>
+
+                                        <td>
+                                            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0">
+                                                <tr>
+                                                    <td style="width: 260px;padding:0;vertical-align: top;color: #153643;">
+                                                        <p><img src="./design/buffalo.jpg" alt="" width="260" style="height:auto;display:block;"></p>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laudantium odit ut 
+                                                        praesentium aliquam veritatis iusto, debitis, deserunt rerum labore consectetur consequatur
+                                                        autem nemo dolore delectus, cum pariatur distinctio voluptatum.</p>
+                                                        <p><a href="https:www.example.com">Blandit ipsum Volupat sed </a></p>
+                                                    </td>
+                                                    <td style="width:20px;padding:0;font-size: 0;line-height: 0;">&nbsp</td>
+                                                    <td style="width:260px;padding:0;vertical-align:top;color: #153643;">
+                                                        <p><img src="./design/bird.jpg" alt="" width="260" style="height: auto; display: block;"/></p>
+                                                        <p>Morbi porttitor, eget est accumsan dictum, nisi libero ultricies ipsum, in posuere mauris 
+                                                        neque at erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing
+                                                        felis, sit amet blandit ipsum volutpat sed.</p>
+                                                        <p><a href="http://www.example"> In tempus fells blandit</a> </p>
+                                                    </td>
+                                                </tr>
+                                            
+                                        </table>
+                                    </td>
+
+                                </tr>
+                                
+                            </td>
+
+                        
+
+                    </tr>
+                </table>
+            
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 30px; background: #ee4c50;">
+                <table role="presentation" style="width: 100%; border: 0;border-collapse: collapse;border-spacing: 0; font-family:Arial,san-sefif;">
+                    <tr>
+                        <td style="padding: 0;width: 50%;" align="left">
+                            <p style="margin: 0; font-size: 14px;line-height: 16px;font-family: Arial, sans-serif;color: #ffffff;">
+                                &reg; Someone,Someswhere 2021 <br/><a href="'http://www.example.com" style="color: #ffffff; text-decoration: underline;"> UnSubscribe</a>
+                            </p>
+                        </td>
+                        <td style="padding: 0;width: 50%;" align="right">
+                            <table role="presentation" style="border-collapse: collapse;border: 0;border-spacing: 0;">
+                                <tr>
+                                    <td style="padding: 0 0 0 10px; width: 38px;">
+                                        <a href="http://www.twitter.com/" style="color: #ffffff;"> <img src="./design/twitter img.png" alt="Twitter" width="38"style="height:auto;display:block;border:0;"></a>
+                                    </td>
+                                    <td style="padding: 0 0 0 10px; width:38px">
+                                        <a href="http://www.facebook.com/" style="color: #ffffff;"><img src="./design/fb image.png" alt="Facebook" width="38" style="height:auto;display:block;border:0;"></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+     </td>
+    </tr>
+    </table>
+</body>
+</html>
